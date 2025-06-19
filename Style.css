@@ -823,7 +823,7 @@ font-size: 1.6rem;
 
 @media screen and (max-width: 768px) {
   
-  .contact-container {
+   .contact-container {
     height: 90rem;
     overflow: auto;
   }
@@ -831,7 +831,7 @@ font-size: 1.6rem;
     height:80rem;
     overflow: auto;
   }
-  
+   
   .portfolio-container.scroll-section::-webkit-scrollbar,
   .contact-container.scroll-section::-webkit-scrollbar {
     width: 0.7rem;

@@ -108,11 +108,11 @@ const arrowRight = document.querySelector('.arrow-right');
 const arrowLeft = document.querySelector('.arrow-left');
 
 arrowRight.addEventListener('click', () => {
-    if (index < 3) {
+    if (index < 4) {
         index++;
         arrowLeft.classList.remove('disabled');
     } else {
-        index = 3; // limit max
+        index = 4; // limit max
         arrowRight.classList.add('disabled');
     }
     activePortfolio();
